@@ -1,0 +1,37 @@
+{
+    "name": "wordpruss/notice",
+    "description": "An Object-Oriented Wrap for notices displayed near the top of admin pages on WordPress.",
+    "keywords": ["wordpress-development","php", "php-library","wordpress"],
+    "homepage":"https://github.com/wordpruss/notice",
+    "license":"MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.4",
+        "wordpruss/contracts": "~1.0.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.7",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "WordPruss\\Notice\\": ""
+        }
+    },
+    "autoload-dev": {
+        "files": [],
+        "psr-4": {
+            "WordPruss\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Mystro Ken",
+            "email": "mystroken@gmail.com",
+            "homepage": "http://mystroken.cm",
+            "role": "Lead Developer"
+        }
+    ]
+}
