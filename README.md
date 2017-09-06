@@ -10,9 +10,7 @@ composer require wordpruss/notices
 Notices are used to show a User some information. They have four types: `success`, `warning`, `info` or `error`. These messages will be displayed at the top of the WordPress admin area. Notices can be used anywhere in the plugin by referencing `Notify`
 ```php
 <?php
-
 use WordPruss\Notices\Notify;
-
 
 Notify::error('Test an error notice');
 Notify::info('Test an info notice');
