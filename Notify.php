@@ -17,7 +17,7 @@ class Notify
     /**
      * @var Notice[]
      */
-    protected static $notices;
+    public static $notices;
 
 
     /**
