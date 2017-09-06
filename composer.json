@@ -16,13 +16,13 @@
     "autoload": {
         "files": [],
         "psr-4": {
-            "WordPruss\\Notice\\": ""
+            "WordPruss\\Notices\\": ""
         }
     },
     "autoload-dev": {
         "files": [],
         "psr-4": {
-            "WordPruss\\Tests\\": "tests/"
+            "WordPruss\\Tests\\Notices\\": "tests/"
         }
     },
     "minimum-stability": "dev",
