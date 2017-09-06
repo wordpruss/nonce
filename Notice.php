@@ -66,7 +66,8 @@ class Notice
 		$className = 'notice';
 
 		// Add specific className from type
-        if( array_key_exists($this->type, $this->allowedTypes) ) $className .= ' notice-' . $this->type;
+        $noticeTypeName = strtolower(trim($this->type));
+        if( in_array($noticeTypeName, $this->allowedTypes) ) $className .= ' notice-' . $noticeTypeName;
 
         // Add specific className for a removable notice
         if( true === $this->isRemovable ) $className .= ' is-dismissible';
