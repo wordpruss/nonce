@@ -1,7 +1,12 @@
-# nonce
+# Notices
 An Object-Oriented Wrap for notices displayed near the top of admin pages on WordPress.
 
-### Basic usage
+#### Installation
+```bash
+composer require wordpruss/notices
+```
+
+#### Basic usage
 ```php
 <?php
 
